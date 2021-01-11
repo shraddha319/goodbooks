@@ -92,6 +92,14 @@ nav {
 
 #root {
     flex: 1 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+#root img {
+    padding: 1rem;
+    margin: 1rem;
 }
 
 
